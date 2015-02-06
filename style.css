@@ -1,0 +1,117 @@
+* {
+     border: 0px;
+ }
+.jumbotron {
+    /*Position of main image*/
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*Formatting of main image*/    
+    background-image: url("https://www.parentmap.com/c/51b0d6be/images/stories/logos/babies_in_a_line.jpg");
+    height: 550px;
+    background-repeat: repeat;
+    background-size: cover;    
+    /*Position of text*/
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    /*Formatting of text*/
+    text-align: center;    
+    font-family: "Shift", sans-serif;
+    }
+.jumbotron h1 {
+    font-size: 65px;
+}
+.jumbotron p {
+    font-size: 23px;
+}
+
+.other {
+    text-align:center;
+    font-family: "Shift", sans-serif;
+}
+.other h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+.other p {
+    font-size: 14px;
+}
+span {
+    color: #B07B43;
+    font-weight: bold;
+}
+
+.tg {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.tg td {
+    font-family: "Shift", sans-serif;
+    font-size: 14px;
+    padding: 15px 15px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+}
+.tg th {
+    padding: 15px 15px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+}
+.tg .tg-wm4t {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.tg .tg-wm6t {
+    font-weight: bold;
+    font-size: 18px;
+    }
+    
+.space {
+    height: 30px;
+}    
+
+.button {
+    text-align: center;
+}
+.button li {
+	display: inline-block;
+	border-radius: 15px;
+	border: 2px solid #B07B43;
+	background-color: #B8946E; 
+	height: 80px;
+	width: 130px;
+	padding: 5px;
+}
+.button a {
+	text-decoration: none;
+	color: #000000;
+	font-family: Verdana, sans-serif;
+}
+.button span {
+	font-weight: bold;
+	font-size: 18px;
+	color: #ffffff;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: white;
+}
+#pink:hover {
+    color: #FF00EA;
+}
+a:active {
+    color: red;
+}
