@@ -1,144 +1,82 @@
-html {
-    font-size: 16px; /* 16 px = 1em */
-}
 body {
-    font-size: 62.5%; /* 10 px = 1em */
+    background: url("https://unsplash.imgix.net/photo-1419064642531-e575728395f2?q=75&fm=jpg&s=490dffe2e11f468947891ab40651e176");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-/* Wrapper for page content to push down footer */
-.wrap {
-  /* Negative indent footer by its height */
-  margin: 0 auto -60px;
-}
-
-/* Set the fixed height of the footer here */
-.footer {
-    margin-top: 40px;
-    height:60px;
-    border-top: 1px solid #898989;
-    background-color: #b7b7b7;
-    padding-top: 15px;
-    text-align: left;
-    font-size: 1.2em;
-}
-
-.footer span {
-    font-size: 1.1em;
-    color: #333333;
-}
-
-.nav a {
-    font-size: 1.6em; 
-}
-.glyphicon {
-    color: #6b6b6b;
-    font-size: 1em;
-}
-.caret {
-    color: #6b6b6b;
-}
-
-.jumbotron {    
-    text-align: center;    
-    font-family: "Shift", sans-serif;
+.wrapper1 {
     background-color: white;
-    }
-.jumbotron #babies {
-    height: auto;
-    width:100%;
-}
-.jumbotron h1 {
-    font-size: 6.5em;
-}
-.jumbotron p {
-    font-size: 2.3em;
-}
-
-.other {
-    text-align:center;
-    font-family: "Shift", sans-serif;
-}
-.other h1 {
-    font-size: 2.6em;
-    font-weight: bold;
-}
-.other p {
-    font-size: 1.4em;
-}
-span {
-    color: #B07B43;
-    font-weight: bold;
-}
-
-.tg {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.tg td {
-    font-family: "Shift", sans-serif;
-    font-size: 1.4em;
-    padding: 15px 15px;
-    border-style: solid;
-    border-width: 1px;
-    overflow: hidden;
-    word-break: normal;
-}
-.tg th {
-    padding: 15px 15px;
-    border-style: solid;
-    border-width: 1px;
-    overflow: hidden;
-    word-break: normal;
-}
-.tg .tg-wm4t {
-    font-weight: bold;
-    font-size: 2.0em;
     text-align: center;
+    margin: -20px;
 }
-.tg .tg-wm6t {
-    font-weight: bold;
-    font-size: 1.8em;
-    }
-    
-
-
-.button {
-    text-align: center;
+.wrapper1 li {
+    display: inline-block;
+    height: 20px;
+    width: 80px;
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin: 10px 0px 5px 0px;
 }
-.button li {
-	display: inline-block;
-	border-radius: 15px;
-	border: 2px solid #B07B43;
-	background-color: #B8946E; 
-	height: 80px;
-	width: 130px;
-	padding: 5px;
-}
-.button a {
-	text-decoration: none;
-	color: #000000;
-	font-family: Verdana, sans-serif;
-    font-size: 1.3em;
-}
-.button span {
-	font-weight: bold;
-	font-size: 1.4em;
-	color: #ffffff;
-}
-a:link {
+.wrapper1 a {
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
     color: black;
 }
-a:visited {
-    color: green;
+.wrapper1 li:hover {
+   background-color: #cc0000;
 }
-a:hover {
+.wrapper1 a:hover {
+   color: white;
+}
+
+
+.wrapper2 {
+    text-align: center;
+}
+.wrapper2 ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 250px;
+}
+.wrapper2 li {
+    float: left;
+    float: right;
+    width: 350px;
+}
+.wrapper2 p {
+    font-family: Verdana, sans-serif;
+    font-size: 25px;
+}    
+#white {
+    background-color: white;
+}
+#black {
+    background-color: black;
     color: white;
 }
-#pink:hover {
-    color: #FF00EA;
+
+#photo {
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    color: white;
+    margin-top: 250px; 
+    float: right;
 }
-a:active {
-    color: red;
+
+#photo a {
+    text-decoration: ;
+}
+#photo a:link {
+   color: white;
+}
+#photo a:visited {
+   color: #8e2525;
+}
+#photo a:hover {
+   color: white;
 }
