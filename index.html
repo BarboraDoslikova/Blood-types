@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Child's Blood Group Predictor</title>
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link href='style.css' type="text/css" rel='stylesheet'>   
+  </head>
+  <body> 
+    <div class='wrapper'>
+
+      <div class='navbar navbar-default navbar-static-top'>
+        <div class='container-fluid'>
+          <div class='navbar-header'>
+            <a href='#' class='navbar-brand'><span class='glyphicon glyphicon-heart' aria-hidden='true'></span> BloodType</a>
+
+            <button type='button' class='navbar-toggle'
+              data-toggle='collapse'
+              data-target='.navbar-collapse'
+              >
+              <span class='sr-only'>Toggle navigation</span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+            </button>
+
+          </div>
+
+          <div>
+            <ul class='nav navbar-nav navbar-right collapse navbar-collapse'>
+              <li><a href='#'><span class='glyphicon glyphicon-home' aria-hidden='true'></span> Home</a></li>
+              <li>
+                <a href='index.html' data-target='#' data-toggle='dropdown'> <!-- data-toggle='dropdown' doesn't need data-target! but we include the '#' target to anchor the link to this page for javascript (JS) users and set the a href link to index.html for users with disabled JS -->    
+                  <span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span> About <span class='caret'></span> <!-- caret, not glyphicon! --> 
+                </a> 
+                <ul class='dropdown-menu'> <!-- class dropdown-menu hides them from loaded view -->    
+                  <li><a href='#'>Item 1</a></li>
+                  <li class='divider'></li>
+                  <li><a href='#'>Item 2</a></li>
+                </ul> 
+              </li>  <!-- li for About -->   
+              <li><a href='#'><span class='glyphicon glyphicon-envelope' aria-hidden='true'></span> Contact</a></li>
+            </ul>
+          </div> 
+
+        </div> <!-- container-fluid -->           
+      </div> <!-- navbar... --> 
+
+      <div class='jumbotron'>
+        <div class='container-fluid'>
+          <h1>Your Child's Blood Type Predictor</h1>
+          <p>Check out your and your partner's blood type to see the probabilities of the blood type of your child.</p>
+          <img id=babies src='https://www.parentmap.com/c/51b0d6be/images/stories/logos/babies_in_a_line.jpg'>
+        </div>
+      </div>
+        
+      <div class='container'>
+        <div class='other'>
+          <h1>Basic Genetics of Blood Type</h1>
+          <p>In genetics, blood type gene has two alleles, each allele has genotype A, B or O. The A and B are dominant, and O is recessive. So allele A combined with allele O is type A. Similarly, BO is type B, AA is type A, BB is type B, OO is type O, and AB is type AB.</p>
+          <p>If both parents have type <span>A</span> blood, then the alleles could be AA or AO, thus the allele A frequency is 75%, allele O frequency is 25% for both parents.</p>
+          <p>So the chance of alleles OO is 25% x 25% = 6.25%,</p>
+          <p>alleles AA is 75% x 75% = 56.25%,</p>
+          <p>alleles AO is 75% x 25% = 18.75%,</p>
+          <p>alleles OA is 25% x 75% = 18.75%.</p>
+          <p>Since AA, AO and OA are blood type A, and OO is blood type O, thus their child has 6.25% chance to be blood type <span>O</span> and 93.75% chance to be blood type <span>A</span>.</p>
+        </div>
+      </div>  
+        
+      <div class='container'>
+       <table class='tg'>
+        <tr>
+          <th class='tg-031e' colspan='2' rowspan='2'></th>
+          <th class='tg-wm4t' colspan='4'>Father's Blood Type</th>
+        </tr>
+        <tr>
+          <td class='tg-wm6t'><span>A</span></td>
+          <td class='tg-wm6t'>B</td>
+          <td class='tg-wm6t'>AB</td>
+          <td class='tg-wm6t'>O</td>
+        </tr>
+        <tr>
+          <td class='tg-wm4t' rowspan='4'>Mother's Blood Type</td>
+          <td class='tg-wm6t'><span>A</span></td>
+          <td class='tg-nrw8'><span>A</span>/<span>O</span></td>
+          <td class='tg-nrw8'>A/B/AB/O</td>
+          <td class='tg-nrw8'>A/B/AB</td>
+          <td class='tg-nrw8'>A/O</td>
+        </tr>
+        <tr>
+          <td class='tg-wm6t'>AB</td>
+          <td class='tg-nrw8'>A/B/AB/O</td>
+          <td class='tg-nrw8'>B/O</td>
+          <td class='tg-nrw8'>A/B/AB</td>
+          <td class='tg-nrw8'>B/O</td>
+        </tr>
+        <tr>
+          <td class='tg-wm6t'>AB</td>
+          <td class='tg-nrw8'>A/B/AB</td>
+          <td class='tg-nrw8'>A/B/AB</td>
+          <td class='tg-nrw8'>A/B/AB</td>
+          <td class='tg-nrw8'>A/B</td>
+        </tr>
+        <tr>
+          <td class='tg-wm6t'>O</td>
+          <td class='tg-nrw8'>A/O</td>
+          <td class='tg-nrw8'>B/0</td>
+          <td class='tg-nrw8'>A/B</td>
+          <td class='tg-nrw8'>O</td>
+        </tr>
+       </table>
+      </div>
+             
+      
+      <div class='button'>
+        <div class='container'>
+          <ul>
+            <li><a href='http://en.wikipedia.org/wiki/Blood_type'>Learn about blood types on <span>wikipedia</span>!</a></li>
+            <li><a href='http://en.wikipedia.org/wiki/Blood_type_diet'>Learn about blood types <span>diet</span>!</a></li>
+            <li><a href='http://en.wikipedia.org/wiki/Blood_types_in_Japanese_culture'>Learn about blood types in <span>Japan</span>!</a></li>
+            <li><a href='http://www.wakingtimes.com/2013/04/28/your-blood-type-determines-your-personality/'>Learn about blood types and <span>personality</span>!</a></li>
+            <li><a href='http://www.ncbi.nlm.nih.gov/pubmed/?term=blood+type'>Learn about blood types and <span>science</span>!</a></li>
+            <li><a id='pink' href='http://vendyxiao.com/wp-content/uploads/2013/02/What_Type-A_Girl_feels_attracted_to.jpg'>Learn about blood types and <span>LOVE</span>!</a></li>
+          </ul>    
+        </div>  
+      </div>  
+        
+  </div> <!-- wrapper -->   
+    
+  <div class='footer'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-ms-6 pull-left'>
+          <p>We hope you <span class='glyphicon glyphicon-heart' aria-hidden='true'></span> this page about blood types as much as we do.</p>
+        </div>
+        <div class='col-ms-6 pull-right'>
+          <p>Made by Barbora D.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+      <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+      <script src='js/bootstrap.min.js'></script>
+
+      <script src='script.js'></script>
+      <script src='jquery.min.js'></script>
+      <script src='app.js'></script>
+  </body>
+</html>
